@@ -49,7 +49,6 @@ extension CachedUser {
         
         return set.sorted { $0.wrappedName < $1.wrappedName}
     }
-    //func addFriend
 }
 
 // MARK: Generated accessors for cachedFriend
